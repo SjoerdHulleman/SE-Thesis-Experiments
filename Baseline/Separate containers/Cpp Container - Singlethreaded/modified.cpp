@@ -105,7 +105,7 @@ int main()
 		std::vector<double> result = doNothing(x);
 		auto end_call = std::chrono::high_resolution_clock::now();
 		auto duration_call = std::chrono::duration_cast<std::chrono::milliseconds>(end_call - start_call);
-		std::cout << "Call of function intPP_mixed took: " << duration_call.count() << std::endl;
+		std::cout << "Call of function doNothing took: " << duration_call.count() << std::endl;
 
 		// ----- End of auto generate assigned converted results and function call -----
 
